@@ -32,7 +32,7 @@ body{
     color: white;
 }
 
-.navbar a:hover, p:hover{
+.navbar a:hover{
     background:#01a1ecb7;
 }
 
