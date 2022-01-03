@@ -39,7 +39,7 @@ body{
 .main {
     padding: 16px;
     margin-top: 30px;
-    height: 1500px;
+    height: 100%;
 }
 
 div.main>img[title="Doggy Daycare"]{
@@ -49,4 +49,18 @@ div.main>img[title="Doggy Daycare"]{
     margin-left: auto;
     margin-right: auto;
     border: solid 4px #041e42;
+}
+
+div.main>h1{
+    text-align: center;
+}
+
+.main p{
+    text-align: center;
+}
+
+.subPage h1{
+    text-align: left;
+    padding: 16px;
+    margin-top: 50px;
 }
