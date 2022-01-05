@@ -26,9 +26,37 @@
         </div>
 
         <div class="subPage">
-            <h1 id="Contact">Contact</h1>
-            <h3><u>Phone:</u> (516) 466-9916</h3>
-            <h3><u>Email:</u> mtd5264@gmail.com</h3>
+            <h1 id="Contact">Contact Me</h1>
+            <h3>If you would like to get in touch, please enter your contact information
+                and I will get back to you as soon as possible.
+            </h3>
+            <!-- How can I send this data to my email? -->
+            <form> 
+                <label for="prefix">Prefix</label><br>
+                <select name="prefix" id="prefix">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="mr">Mr.</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="dr">Dr.</option>
+                    <option value="na">N/A</option>
+                </select><br>
+                <label for="fname" class="required">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname" class="required">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="phone" class="required">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <input type="radio" id="mobile" name="phoneType" value="Mobile">
+                <label for="mobile">Mobile</label>
+                <input type="radio" id="home" name="phoneType" value="Home">
+                <label for="home">Home</label>
+                <input type="radio" id="business" name="phoneType" value="Business">
+                <label for="business">Business</label><br>
+                <label for="email" class="required">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
         <script src="./script.js"></script>

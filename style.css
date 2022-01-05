@@ -67,5 +67,18 @@ div.main>h1{
 
 .subPage h3{
     text-align: left;
-    padding-left: 32px;
+    margin-left: 32px;
+}
+
+.subPage form{
+    margin-left:52px;
+}
+
+.subPage form input, select{
+    margin-bottom: 10px;
+}
+
+.subPage form label.required:after{
+    content:" *";
+    color: red;
 }
