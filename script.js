@@ -4,3 +4,5 @@ function rudyPic(){
 
 const rudy = document.querySelector("div.navbar a#Rudy");
 rudy.addEventListener('click', rudyPic);
+
+// Add JS with pop up thanking user for form submission on contact page
